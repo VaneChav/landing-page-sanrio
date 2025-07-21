@@ -1,0 +1,28 @@
+/* 
+  Estilos Globales
+
+  Aquí vamos a definir estilos que se reutili
+*/
+
+:root {
+ 
+  --azulfuerte-color:#005BAB; 
+  --azul-color: #C0D6ED;
+  --lila-color: #D8CADB;
+  --rosa-color: #F9E4EB;
+  --salmon-color: #FDDDD0; 
+  --verde-color: #D1E2AE;
+  --amarillo-color: #F5EDC9;
+
+  --dark-color: #13132F;
+  --light-color: #F0F0F0;   
+
+  --body-text: var(var(--dark-color))
+
+  --font-primary: Martel Sans, sans-serif;
+  --font-secundary: Lilita One, sans-serif;
+}
+
+body {
+  font-family: var(font-primary);
+}
