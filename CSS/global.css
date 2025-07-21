@@ -17,12 +17,45 @@
   --dark-color: #13132F;
   --light-color: #F0F0F0;   
 
-  --body-text: var(var(--dark-color))
-
   --font-primary: Martel Sans, sans-serif;
   --font-secundary: Lilita One, sans-serif;
+
+  --space-small: 16px;
+  --space-normal: 24px;
+  --space-medium: 32px;
 }
 
 body {
-  font-family: var(font-primary);
+  font-family: var(--font-primary);
+  color: var(--dark-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-secundary);
+  color: var(--dark-color);
+}
+
+/* Buttons */
+
+.button-primary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-small);
+  padding: var(--space-small) var(--space-normal);
+  color: var(--dark-color);
+  border-radius: 32px;
+  font-family: var(--font-secundary);
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+  color: var(--azulfuerte-color);
+  background-color: var(--azul-color);
 }
