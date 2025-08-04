@@ -20,6 +20,8 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--space-normal);
+  background-color: var(--dark-color-transparent);
+  backdrop-filter: 10px;
 }
 
 .navbar-menu {
@@ -48,6 +50,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  background-color: var(--dark-color-transparent);
 }
 
 .hero-content {
@@ -147,6 +150,7 @@
   width: 100%;
   height: auto;
   filter: brightness(0.6);
+  transition: filter 0.3s ease;
 
 }
 
@@ -156,7 +160,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3rem;
-  color: var(--azulfuerte-color);
+  color: var(--dark-color);
 }
 
 .carousel-item:hover span {
