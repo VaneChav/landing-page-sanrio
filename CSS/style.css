@@ -134,11 +134,20 @@
 
 .carousel-item {
   position: relative;
+  cursor: pointer;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.carousel-item:hover img {
+  filter: brightness(1);
 }
 
 .carousel-item img {
   width: 100%;
   height: auto;
+  filter: brightness(0.6);
+
 }
 
 .carousel-item span {
@@ -147,6 +156,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3rem;
+  color: var(--azulfuerte-color);
+}
+
+.carousel-item:hover span {
   color: var(--azulfuerte-color);
 }
 
@@ -159,6 +172,9 @@
   color: var(--azulfuerte-color);
 }
 
+.carousel-controls button:hover {
+  color: var(--azulfuerte-color);
+}
 .carousel-controls span {
   font-size: 3rem;
 }
