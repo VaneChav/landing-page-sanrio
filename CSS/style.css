@@ -182,3 +182,10 @@
 .carousel-controls span {
   font-size: 3rem;
 }
+
+/* About */
+
+.about {
+  background-image: url("../assets/imagenes/sanrio-amigos.png");
+  background: linear-gradient(to right, #C0D6ED, #D8CADB, #F4482E);
+}
