@@ -186,6 +186,42 @@
 /* About */
 
 .about {
-  background-image: url("../assets/imagenes/sanrio-amigos.png");
-  background: linear-gradient(to right, #C0D6ED, #D8CADB, #F4482E);
+  background:
+  /* Capas */
+  /* Layer 1 */ linear-gradient(90deg,rgba(112, 210, 226, 0.75) 0%, rgba(247, 174, 237, 0.28) 100%), 
+     /* Layer 2 */ url(¨../assets/imagenes/hello-kitty-avion.png¨) center content no-repear;
+  background-size: cover;
+}
+
+.about > div {
+  display: flex;
+  padding: var(--space-large);
+}
+
+.about-image,
+.about-content {
+  width: 50%;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 240px;
+  min-width: 200px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-content h2
+.about-content p {
+  color: var(--dark-color);
 }
