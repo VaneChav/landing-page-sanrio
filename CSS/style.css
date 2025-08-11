@@ -188,8 +188,10 @@
 .about {
   background:
   /* Capas */
-  /* Layer 1 */ linear-gradient(90deg,rgba(112, 210, 226, 0.75) 0%, rgba(247, 174, 237, 0.28) 100%), 
-     /* Layer 2 */ url(¨../assets/imagenes/hello-kitty-avion.png¨) center content no-repear;
+  /* Layer 1 */ 
+    linear-gradient(90deg,rgba(253, 221, 208, 0.37) 0%, rgba(192, 214, 237, 0.409) 100%), 
+     /* Layer 2 */ 
+     url("../assets/imagenes/sanrio-amigos.png") center center no-repeat;
   background-size: cover;
 }
 
